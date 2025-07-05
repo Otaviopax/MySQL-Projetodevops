@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prova-devops
+spec:
+    replicas: 3
+    selector:
+        matchLabels:
+        app: prova-devops
+    template:
+        metadata:
+        labels:
+            app: prova-devops
+        spec:
+        containers:
+        - name: prova-devops
+          image: otaviopax/prova-devops
+          ports:
+            - containerPort: 8000
