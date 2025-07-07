@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: prova-devops
+  name: mysql-projetodevops
 spec:
   selector:
-    app: prova-devops
+    app: mysql-projetodevops
   ports:
     - protocol: TCP
       port: 80

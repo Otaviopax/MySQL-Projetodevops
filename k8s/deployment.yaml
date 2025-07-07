@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: prova-devops
+  name: mysql-projetodevops
 spec:
     replicas: 3
     selector:
         matchLabels:
-        app: prova-devops
+        app: mysql-projetodevops
     template:
         metadata:
         labels:
-            app: prova-devops
+            app: mysql-projetodevops
         spec:
         containers:
-        - name: prova-devops
-          image: otaviopax/prova-devops
+        - name: mysql-projetodevops
+          image: otaviopax/mysql-projetodevops
           ports:
             - containerPort: 8000
