@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 images:
-  - name: mysql-projetodevops
-    newName: otaviopax/mysql-projetodevops
-    newTag: c58b625834eb8b45c0d3d3b45ba4cbc288fc5146
+- name: mysql-projetodevops
+  newName: otaviopax/mysql-projetodevops
+  newTag: b383adaca23c897ff4de95974e043fe896036dee
