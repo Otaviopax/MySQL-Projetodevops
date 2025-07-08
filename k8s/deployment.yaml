@@ -6,7 +6,7 @@ spec:
     replicas: 3
     selector:
         matchLabels:
-        app: mysql-projetodevops
+          app: mysql-projetodevops
     template:
         metadata:
         labels:
