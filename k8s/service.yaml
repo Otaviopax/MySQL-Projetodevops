@@ -4,7 +4,7 @@ metadata:
   name: mysql-projetodevops
 spec:
   selector:
-    app: mysql-projetodevops
+    app: mysql
   ports:
     - protocol: TCP
       port: 80
