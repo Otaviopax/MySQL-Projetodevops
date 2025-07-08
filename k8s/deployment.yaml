@@ -14,6 +14,6 @@ spec:
         spec:
         containers:
         - name: mysql-projetodevops
-          image: otaviopax/mysql-projetodevops
+          image: mysql-projetodevops
           ports:
             - containerPort: 8000
