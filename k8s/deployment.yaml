@@ -6,11 +6,11 @@ spec:
     replicas: 3
     selector:
         matchLabels:
-          app: mysql-projetodevops
+        app: mysql
     template:
         metadata:
         labels:
-            app: mysql-projetodevops
+            app: mysql
         spec:
         containers:
         - name: mysql-projetodevops
