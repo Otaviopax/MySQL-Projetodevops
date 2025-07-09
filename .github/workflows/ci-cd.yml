@@ -29,6 +29,7 @@ jobs:
           context: .
           push: true
           tags: |
+            otaviopax/mysql-projetodevops:latest
             otaviopax/mysql-projetodevops:${{ github.sha }}
 
       - name: Setup Kustomize
