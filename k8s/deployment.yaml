@@ -3,9 +3,9 @@ kind: Deployment
 metadata:
   name: mysql-projetodevops
 spec:
-  selector:
   replicas: 3
-      matchLabels:
+  selector:
+    matchLabels:
       app: mysql
   template:
     metadata:
