@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   name: mysql-projetodevops
 spec:
-    replicas: 3
-    selector:
-        matchLabels:
-        app: mysql
-    template:
-        metadata:
-        labels:
-            app: mysql
-        spec:
-        containers:
-        - name: mysql-projetodevops
-          image: mysql-projetodevops
-          ports:
-            - containerPort: 8000
+  selector:
+  replicas: 3
+      matchLabels:
+      app: mysql
+  template:
+    metadata:
+    labels:
+      app: mysql
+    spec:
+    containers:
+    - name: mysql-projetodevops
+      image: mysql-projetodevops
+      ports:
+        - containerPort: 8000
