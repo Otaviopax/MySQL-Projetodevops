@@ -23,9 +23,3 @@ SET character_set_results = utf8;
 SET collation_connection = utf8_general_ci;
 INSERT INTO perguntas (titulo_pergunta, nome_usuario_pergunta, texto_pergunta) VALUES ('Bem Vindo ao Q&A', 'Anoniquest', 'Bem Vindo ao Site, aqui você pode fazer perguntas e repostas, você sabe fazer perguntas?');
 INSERT INTO respostas (nome_usuario_resposta, texto_resposta, id_pegunta_resposta) VALUES ('Anoniquest Novamente', 'Para responder basta clicar em reponda essa reposta, ou algo assim sei lá como é pra ser o layout do site.',1)
-
-CREATE USER 'vagrant'@'localhost' IDENTIFIED BY 'vagrant';
-
-GRANT ALL PRIVILEGES ON *.* TO 'vagrant'@'localhost' WITH GRANT OPTION;
-
-FLUSH PRIVILEGES;
