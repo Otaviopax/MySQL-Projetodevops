@@ -7,5 +7,5 @@ spec:
     app: mysql
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 8000
+      port: 33060
+      targetPort: 8002
