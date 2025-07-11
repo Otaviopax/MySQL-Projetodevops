@@ -7,3 +7,5 @@ ENV MYSQL_ALLOW_EMPTY_PASSWORD='yes'
 
 
 COPY ./db/ /docker-entrypoint-initdb.d/
+
+EXPOSE 8002
