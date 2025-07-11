@@ -6,4 +6,4 @@ resources:
 images:
 - name: mysql-projetodevops
   newName: otaviopax/mysql-projetodevops
-  newTag: 2084b23a2edb23b36bef0986454bffcc375bfd15
+  newTag: a54a1831ea6c138b0b05ce977860d160c086a7b0
